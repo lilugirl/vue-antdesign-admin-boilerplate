@@ -19,11 +19,9 @@ const i18n = new VueI18n({
   messages: I18nMessages // 设置地区信息
 });
 
-const app = new Vue({
+new Vue({
   i18n,
   router,
   store,
   render: h => h(App)
 }).$mount("#app");
-
-Vue.prototype.$i18n = app.$i18n;
