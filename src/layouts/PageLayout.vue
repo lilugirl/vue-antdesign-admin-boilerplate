@@ -1,6 +1,8 @@
 <template>
     <div>
          <h1> Page layout</h1> 
+         <LocaleChange />
+         <h2> {{ $t("message.hello") }}</h2>
 
         <div id="nav">
               <router-link to="/page">Home</router-link> |
@@ -12,7 +14,11 @@
     </div>
 </template>
 <script>
+import LocaleChange from '../components/LocaleChange.vue'
+
 export default {
-    
+  components: {
+    LocaleChange
+  }
 }
 </script>
