@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "",
     name: "首页",
     component: AdminLayout,
     redirect: "/product",

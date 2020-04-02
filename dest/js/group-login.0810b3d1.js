@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["group-login"],{"2d6e":function(n,e,t){"use strict";t.r(e);var l=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v(" 登陆 ")])},u=[],o={},r=o,c=t("2877"),i=Object(c["a"])(r,l,u,!1,null,null,null);e["default"]=i.exports}}]);
-//# sourceMappingURL=group-login.0810b3d1.js.map
