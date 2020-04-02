@@ -1,5 +1,5 @@
 module.exports = {
-  outputDir: "../public",
+  outputDir: "./dest",
   indexPath: "index.html",
   chainWebpack: config => {
     config.module
