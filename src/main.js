@@ -7,11 +7,14 @@ import store from "./store";
 import Antd from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";
 import axios from "axios";
+import VueStorage from "vue-ls";
+import "./permission"; // permission control
 
 Vue.prototype.$axios = axios;
 Vue.config.productionTip = false;
 Vue.use(Antd);
 Vue.use(VueI18n);
+Vue.use(VueStorage);
 
 // 通过选项创建 VueI18n 实例
 const i18n = new VueI18n({
