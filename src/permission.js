@@ -12,8 +12,6 @@ NProgress.configure({ showSpinner: false }); // NProgress Configuration
 
 const whiteList = ["Login", "About", "Home"]; // no redirect whitelist
 const defaultRoutePath = "/product";
-console.log("-----------Vue-----------------", Vue);
-console.log("-----------Vue.ls-----------------", Vue.ls);
 
 router.beforeEach((to, from, next) => {
   NProgress.start(); // start progress bar
