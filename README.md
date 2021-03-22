@@ -2,3 +2,8 @@
 a vue admin
 
 vuex+ant-design+vue-i18n
+
+```
+yarn 
+yarn serve
+```
